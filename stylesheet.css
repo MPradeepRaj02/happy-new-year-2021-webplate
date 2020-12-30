@@ -43,7 +43,8 @@ body {
 
 .footer-logo {
     text-align: center;
-
+    padding: 3px;
+    margin: center;
 }
 
 .dev {
@@ -77,11 +78,13 @@ a {
     .dev {
         text-align: center;
         padding: 1px;
+        margin: center;
     }
     .rights{
         padding:1px;
         color: black;
         text-align: center;
         max-width: 100%;
+        margin: center;
     }
 }
