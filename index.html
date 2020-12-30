@@ -3,9 +3,17 @@
     <head>
         <title>Fauceter 2021</title>
         <link rel="stylesheet" href="stylesheet.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        
+        <audio controls style="display:none" id="audio">
+            <source src="images/song.mp3" type="audio/mpeg">
+        
+          </audio>
+          <script>
+          document.getElementById('audio').play();
+          </script>
+
         <div class="header">
             <div class="header-logo">
                 Happy New Year
@@ -14,18 +22,31 @@
                 2021
             </div>
         </div>
+
         <div class="main">
+            <img class="happynewyear" src="images/4.jpg">
             <img class="pic" src="images/1.jpg">
             <img class="pic" src="images/2.jpg">
             <img class="pic" src="images/3.jpg">
+            
         </div>
+
+        <img  src="images/fly.jpg">
+
+        
 
         <div class="whatsapp-but">
             <h3> Share this surprise with your friends & family</h3>
-            <input type="text" name="message">
-            <button onclick="share()" >
+            <input class="textbox" type="text" name="message" value="Enter Your Name Here">
+            <button class="button" onclick="share()" >
                 Share to Whatsapp
             </button>
+            <div class='invite'>
+                <h2>with</h2>
+                <a class="welcome" href="https://fauceter.in">
+                    Fauceter.in
+                </a>
+            </div>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
@@ -42,15 +63,17 @@
             }
         </script>
 
+        
+
         <div class="footer">
             <div class="footer-logo">
-                Fauceter
+                <a class='fauceter' href="https://fauceter.in"> Fauceter</a>
             </div>
             <div class="footer-logo">
                 India
             </div>
             <div class="dev">
-                Developed by <a href="https://instagram.com/mpradeepraj02">Pradeep Raj</a>
+                Developed by <a class='mpr' href="https://instagram.com/mpradeepraj02">Pradeep Raj</a>
             </div>
             <div class="rights">
                 Copyright © 2021 Fauceter - All Rights Reserved
