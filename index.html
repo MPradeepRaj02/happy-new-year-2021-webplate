@@ -23,12 +23,25 @@
 
         <div class="whatsapp-but">
             <h3> Share this surprise with your friends & family</h3>
-            <input type="text" name="Your Name">
-            <button onclick="share()" >Share to Whatsapp</button>
+            <input type="text" name="message">
+            <button onclick="share()" >
+                Share to Whatsapp
+            </button>
         </div>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-        <script src="script.js"></script>
         
+        <script  type="text/javascript">
+            
+            function share() { 
+                var message = $("input[name=message]").val(); 
+                window.open( 
+                    "whatsapp://send?text=🥳" + message + 
+                    " sent you a 🪄🎁 surprice with 🎊 fauceter.in 🎊", 
+                '   _blank'
+            ); 
+        </script>
+
         <div class="footer">
             <div class="footer-logo">
                 Fauceter
