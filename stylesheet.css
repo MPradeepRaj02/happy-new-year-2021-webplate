@@ -20,8 +20,8 @@ body {
 }
 
 .pic {
-    height: auto;
-    width: auto;
+    height:max-content;
+    width:max-content;
 }
 
 .main {
@@ -30,9 +30,7 @@ body {
     display: block;
 }
 
-.pic{
-   
-}
+
 
 .footer {
     background-color: #10B5DF;
