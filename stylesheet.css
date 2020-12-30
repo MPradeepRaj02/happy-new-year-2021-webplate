@@ -1,0 +1,55 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    background-color: #10B5DF;
+    color:black;
+    height:100px;
+}
+
+.header-logo {
+    text-align: center;
+    font-size: 56px;
+    
+}
+
+.header-sec {
+    text-align:center;
+
+}
+
+.pic {
+    height: auto;
+    width: auto;
+}
+
+.main {
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+
+.pic{
+   
+}
+
+.footer {
+    background-color: #10B5DF;
+    color: white;
+    height:80px;
+    padding:40px;
+}
+
+.footer-logo {
+    text-align: center;
+
+}
+
+.dev {
+    float:right;
+}
+
+a {
+    color: white;
+}
