@@ -53,3 +53,28 @@ body {
 a {
     color: white;
 }
+
+@media all and (max-width:670px) {
+    .header {
+        width: 100%;
+    }
+    
+    .main {
+        max-width: 100%;
+    }
+
+    .footer{
+        max-width: 100%;
+    }
+    .footer-logo {
+        text-align: center;
+        padding:2px
+    }
+    .dev {
+        text-align: center;
+        padding: 1px;
+    }
+    .rights{
+        text-align: center;
+    }
+}
