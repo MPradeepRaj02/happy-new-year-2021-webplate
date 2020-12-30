@@ -50,6 +50,10 @@ body {
     float:right;
 }
 
+.rights {
+    float:left;
+}
+
 a {
     color: white;
 }
@@ -75,6 +79,9 @@ a {
         padding: 1px;
     }
     .rights{
+        padding:1px;
+        color: black;
         text-align: center;
+        max-width: 100%;
     }
 }
